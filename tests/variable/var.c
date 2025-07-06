@@ -2,8 +2,14 @@
 
 int main()
 {
-  int num = 2;
-  float num2 = 2.1;
-  char myString[] = "hello"; // string
-  printf("%s", myString);
+  getString("What is your name: ");
+}
+
+char getString(char param[])
+{
+  char param[100];
+  char str[100];
+  printf("%s");
+  scanf("%s", str);
+  return str;
 }
