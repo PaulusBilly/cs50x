@@ -1,18 +1,13 @@
+#include <cs50.h>
 #include <stdio.h>
+
+int meow(int count) {
+  for (int i = 0; i < count; i++) {
+    printf("meow\n");
+  }
+}
 
 int main()
 {
-  // FOR LOOP
-  for (int i = 0; i < 3; i++)
-  {
-    printf("meow...\n");
-  }
-
-  // WHILE LOOP
-  int i = 0;
-  while (i < 3)
-  {
-    printf("meow!\n");
-    i++;
-  }
+  int count = get_int("How many meows? ");
 }
