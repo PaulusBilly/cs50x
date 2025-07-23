@@ -1,8 +1,10 @@
 #include <cs50.h>
 #include <stdio.h>
 
-int meow(int count) {
-  for (int i = 0; i < count; i++) {
+int meow(int count)
+{
+  for (int i = 0; i < count; i++)
+  {
     printf("meow\n");
   }
 }
