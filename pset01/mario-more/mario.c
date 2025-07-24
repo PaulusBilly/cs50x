@@ -6,12 +6,22 @@ int main() {
   int length;
   do {
     height = get_int("Height: ");
-    length = height;
+    length = height * 2;
     for (int i = 0; i < height; i++) {
-      for (int j = 0; j < length; j++) {
-        printf("#");
+      for (int j = 0; j < length + 1; j++) {
+        if (j == (length / 2)) {
+          printf(" ");
+          continue;
+        }
+
+        if ((j < (length/2 - i) - 1) || (j > (length/2 + i) + 1)) {
+
+          printf(" ");
+        } else {
+          printf("#");
+        }
       }
       printf("\n");
     }
-  } while (!(height < 0));
+  } while (!(height > 0));
 }
