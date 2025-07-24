@@ -11,7 +11,7 @@ int main() {
       for (int j = 0; j < length; j++) {
         printf("#");
       }
-      printf(" ")
+      printf(" ");
     }
-  } while (!(height < 0))
+  } while (!(height < 0));
 }
