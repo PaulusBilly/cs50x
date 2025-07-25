@@ -3,30 +3,21 @@
 
 int main() {
     int owed;
-    int counter = 0;
 
     do {
         owed = get_int("Change owed: ");
     } while (owed < 0);
 
-    while (owed >= 25) {
-        owed -= 25;
-        counter++;
-    }
+    int coins[] = {25, 10, 5, 1};
+    int coins_length = sizeof(coins) / sizeof(coins[0]);
+    int counter = 0;
 
-    while (owed >= 10) {
-        owed -= 10;
-        counter++;
-    }
-
-    while (owed >= 5) {
-        owed -= 5;
-        counter++;
-    }
-
-    while (owed >= 1) {
-        owed -= 1;
-        counter++;
+    for (int i = 0; i < coins_length; i++) {
+        int coin = coins[i];
+        while (owed >= coin) {
+            owed -= coin;
+            counter++;
+        }
     }
 
     printf("%i\n", counter);
