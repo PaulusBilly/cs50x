@@ -1,6 +1,6 @@
 # CS50x - Harvard's Introduction to Computer Science
 
-This repository documents my journey through Harvard University's CS50x: Introduction to Computer Science course. It serves as a personal record of my progress, understanding, and solutions to the problem sets (PSets) assigned throughout the course.
+This repository documents my journey through Harvard University's CS50x: Introduction to Computer Science course, taught by the esteemed David J. Malan. It serves as a personal record of my progress, understanding, and solutions to the problem sets (PSets) assigned throughout the course.
 
 ## Repository Structure
 
@@ -38,10 +38,6 @@ clang -o cash cash.c -lcs50
 ```
 
 Note: The `-lcs50` flag links against the CS50 library, which might be required for some problems. Ensure you have the CS50 library installed in your environment if you plan to compile and run these programs outside of the CS50 IDE.
-
-## License
-
-The content of this repository is licensed under the MIT License. This is a permissive license that allows for reuse, modification, and distribution of the code. You can find the full license text in the `LICENSE` file.
 
 ## My Learning Journey
 
