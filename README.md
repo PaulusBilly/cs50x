@@ -9,7 +9,6 @@ The repository is organized by problem set, with each problem set having its own
 -   **Problem Descriptions:** (Where applicable, links or brief descriptions of the problem)
 -   **Solution Code:** My C source code files (`.c`) for each problem.
 -   **Compiled Binaries:** Executable files generated after compiling my solutions.
--   **Thought Process/Notes:** (Potentially in separate `.md` files or comments within the code) - detailing my approach, challenges faced, and how I arrived at the solution.
 
 ## Contents
 
@@ -39,6 +38,10 @@ clang -o cash cash.c -lcs50
 ```
 
 Note: The `-lcs50` flag links against the CS50 library, which might be required for some problems. Ensure you have the CS50 library installed in your environment if you plan to compile and run these programs outside of the CS50 IDE.
+
+## License
+
+The content of this repository is licensed under the MIT License. This is a permissive license that allows for reuse, modification, and distribution of the code. You can find the full license text in the `LICENSE` file.
 
 ## My Learning Journey
 
