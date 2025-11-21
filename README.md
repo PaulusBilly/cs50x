@@ -18,7 +18,7 @@ The repository is organized by problem set, with each problem set having its own
     -   `mario-less/`: Implementation of a less comfortable Mario pyramid.
     -   `mario-more/`: Implementation of a more comfortable Mario pyramid.
     -   `me/`: A simple "hello, world" program.
--   **`tests/`**: Contains various test programs and utilities.
+-   **`tests/`**: Contains my process of testing to getting the solution.
 
 ## How to Navigate
 
